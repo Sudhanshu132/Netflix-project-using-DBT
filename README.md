@@ -32,14 +32,15 @@ It uses dbt to manage SQL transformations, enforce data quality, and produce cle
 
 ## 📁 Repository Structure
 
-├── models/  //
-│ ├── staging/ # Source cleaning and typing
-│ ├── intermediate/ # Business logic transformations
-│ └── marts/ # Final fact & dimension tables
-├── snapshots/ # Slowly changing dimensions (optional)
-├── macros/ # Reusable SQL snippets
-├── dbt_project.yml # dbt project config
-└── profiles.yml # dbt connection settings
+├── models/
+│   ├── staging/        # Source cleaning and typing
+│   ├── intermediate/  # Business logic transformations
+│   └── marts/          # Final fact and dimension tables
+├── snapshots/          # Slowly changing dimensions (optional)
+├── macros/             # Reusable SQL macros
+├── dbt_project.yml     # dbt project configuration
+└── profiles.yml        # dbt connection settings
+
 
 
 ---
