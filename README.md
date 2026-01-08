@@ -32,7 +32,7 @@ It uses dbt to manage SQL transformations, enforce data quality, and produce cle
 
 ## 📁 Repository Structure
 
-├── models/
+├── models/  //
 │ ├── staging/ # Source cleaning and typing
 │ ├── intermediate/ # Business logic transformations
 │ └── marts/ # Final fact & dimension tables
